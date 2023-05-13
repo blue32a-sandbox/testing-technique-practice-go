@@ -1,2 +1,5 @@
-# testing-technique-practice-go
-ソフトウェアテスト技法練習帳
+# ソフトウェアテスト技法練習帳 With Go
+
+ソフトウェアテスト技法練習帳 ～知識を経験に変える40問～
+
+https://gihyo.jp/book/2020/978-4-297-11061-1

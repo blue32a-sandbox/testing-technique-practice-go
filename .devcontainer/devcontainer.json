@@ -1,0 +1,17 @@
+{
+    "name": "Go",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "golang",
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "EditorConfig.EditorConfig",
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                "golang.go"
+            ]
+        }
+    }
+}
