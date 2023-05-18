@@ -1,8 +1,8 @@
 package ques01_test
 
 import (
-	"ques01"
 	"testing"
+	"ttp/cmd/part1/ques01"
 )
 
 var dataProvider = []struct {
