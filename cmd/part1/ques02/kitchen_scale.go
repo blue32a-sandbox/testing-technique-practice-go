@@ -51,8 +51,7 @@ func (ks KitchenScale) TakeOff() KitchenScale {
 	if ks.isPowerOn {
 		totalMass -= ks.objects[len(ks.objects)-1].weight
 	}
-	newObjects := append(ks.objects[:len(ks.objects)-1], ks.objects[len(ks.objects):]...)
-	return KitchenScale{ks.isPowerOn, totalMass, newObjects}
+	return KitchenScale{ks.isPowerOn, totalMass, ks.objects[:len(ks.objects)-1]}
 }
 
 func (ks KitchenScale) ViewTotalMass() string {
