@@ -9,3 +9,4 @@ https://gihyo.jp/book/2020/978-4-297-11061-1
 - [1.1 温度によって表示を変えるペット用室温計](cmd/part1/ques01/thermometer_test.go)
 - [1.2 キッチンスケールの動作検証](cmd/part1/ques02/kitchen_scale_test.go)
 - [1.3 畳の枚数から面積を計算するWebシステム](cmd/part1/ques03/area_test.go)
+- [1.4 まとめ買いがオトクな手芸用品店](cmd/part1/ques04/calculation_test.go)
