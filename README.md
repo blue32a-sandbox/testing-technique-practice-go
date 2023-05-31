@@ -12,3 +12,4 @@ https://gihyo.jp/book/2020/978-4-297-11061-1
 - [1.4 まとめ買いがオトクな手芸用品店](cmd/part1/ques04/calculation_test.go)
 - [1.5 年齢によって変わる入園料金](cmd/part1/ques05/price_test.go)
 - [1.6 BUG QUEST ☆盾と一緒に装備できる武器](cmd/part1/ques06/equipment_test.go)
+- [1.7 BUG QUEST ☆武器の強化判定](cmd/part1/ques07/upgrade_test.go)
