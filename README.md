@@ -23,3 +23,4 @@ https://gihyo.jp/book/2020/978-4-297-11061-1
 ## Part 2: デシジョンテーブル
 
 - [2.1 １杯目のビールの価格](cmd/part2/ques01/README.md)
+- [2.2 銀行ATMの引き出し手数料](cmd/part2/ques02/README.md)
