@@ -14,3 +14,12 @@ https://gihyo.jp/book/2020/978-4-297-11061-1
 - [1.6 BUG QUEST ☆盾と一緒に装備できる武器](cmd/part1/ques06/equipment_test.go)
 - [1.7 BUG QUEST ☆武器の強化判定](cmd/part1/ques07/upgrade_test.go)
 - [1.8 BMI値で栄養状態を判定](cmd/part1/ques08/bmi_test.go)
+- 1.9 肉屋の特売日
+- 1.10 肉屋の特売日～A社のソースコード
+- 1.11 肉屋の特売日～B社のソースコード
+- 1.12 配達便の料金体系
+- 1.13 経理システムに入力する部署コード
+
+## Part 2: デシジョンテーブル
+
+- [2.1 １杯目のビールの価格](cmd/part2/ques01/README.md)
