@@ -25,3 +25,4 @@ https://gihyo.jp/book/2020/978-4-297-11061-1
 - [2.1 １杯目のビールの価格](cmd/part2/ques01/README.md)
 - [2.2 銀行ATMの引き出し手数料](cmd/part2/ques02/README.md)
 - [2.3 紳士服店の割引率](cmd/part2/ques03/README.md)
+- [2.4 BUG QUEST ☆魔王との戦い](cmd/part2/ques04/README.md)
