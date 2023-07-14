@@ -9,7 +9,7 @@ import (
 var dataProvider = []struct {
 	time            time.Time
 	isSpecialMember bool
-	actual          int
+	expected        int
 }{
 	{FactoryBusinessDay(8, 45), true, 0},
 	{FactoryBusinessDay(8, 45), false, 0},
@@ -25,12 +25,12 @@ func TestGetFee(t *testing.T) {
 	for _, data := range dataProvider {
 		result := ques02.GetFee(data.time, data.isSpecialMember)
 
-		if result != data.actual {
+		if result != data.expected {
 			t.Fatalf(
 				"日時が %s で特別会員が %t のとき、手数料が %d ではない。 actual: %d",
 				data.time.Format("2006/1/2 15:04:00"),
 				data.isSpecialMember,
-				data.actual,
+				data.expected,
 				result)
 		}
 	}

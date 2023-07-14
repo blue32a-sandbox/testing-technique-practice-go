@@ -7,7 +7,7 @@ import (
 
 var dataProvider = []struct {
 	temperature float64
-	actual      string
+	expected    string
 }{
 	{20.0, "寒い"},
 	{23.9, "寒い"},
@@ -24,11 +24,12 @@ func TestMessage(t *testing.T) {
 
 		result := thermometer.Message()
 
-		if result != data.actual {
+		if result != data.expected {
 			t.Fatalf(
 				"室温が %.1f のとき表示メッセージが %s ではない。 actual: %s",
 				data.temperature,
-				data.actual, result)
+				data.expected,
+				result)
 		}
 	}
 }

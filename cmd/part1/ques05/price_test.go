@@ -6,8 +6,8 @@ import (
 )
 
 var dataProvider = []struct {
-	age    int
-	actual string
+	age      int
+	expected string
 }{
 	{0, "無料"},
 	{2, "無料"},
@@ -27,11 +27,11 @@ func TestGetPrice(t *testing.T) {
 	for _, data := range dataProvider {
 		result, _ := ques05.GetPrice(data.age)
 
-		if result != data.actual {
+		if result != data.expected {
 			t.Fatalf(
 				"年齢が %d 歳のとき料金が %s ではない。 actual: %s",
 				data.age,
-				data.actual,
+				data.expected,
 				result)
 		}
 	}

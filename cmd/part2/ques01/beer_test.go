@@ -9,7 +9,7 @@ import (
 var dataProvider = []struct {
 	useCoupon bool
 	time      time.Time
-	actual    int
+	expected  int
 }{
 	{true, FactoryHappyHourTime(), 100},
 	{true, FactoryNotHappyHourTime(), 100},
@@ -21,12 +21,12 @@ func TestGetBeerPrice(t *testing.T) {
 	for _, data := range dataProvider {
 		result := ques01.GetBeerPrice(data.useCoupon, data.time)
 
-		if result != data.actual {
+		if result != data.expected {
 			t.Fatalf(
 				"クーポン使用が %t で時間が %s のとき、料金が %d ではない。 actual: %d",
 				data.useCoupon,
 				data.time.Format("15:04"),
-				data.actual,
+				data.expected,
 				result)
 		}
 	}

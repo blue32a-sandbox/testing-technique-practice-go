@@ -6,8 +6,8 @@ import (
 )
 
 var dataProvider = []struct {
-	weight int64
-	actual string
+	weight   int64
+	expected string
 }{
 	{0, "0g"},
 	{1000, "1000g"},
@@ -25,19 +25,19 @@ func TestPlusMass(t *testing.T) {
 
 		result := kitchenScale.ViewTotalMass()
 
-		if result != data.actual {
+		if result != data.expected {
 			t.Fatalf(
 				"重さが %d のとき表示メッセージが %s ではない。 actual: %s",
 				kitchenScale.TotalMass(),
-				data.actual,
+				data.expected,
 				result)
 		}
 	}
 }
 
 var minusDataProvider = []struct {
-	weight int64
-	actual string
+	weight   int64
+	expected string
 }{
 	{1, "EEEE"},
 	{10, "EEEE"},
@@ -53,11 +53,11 @@ func TestMinusMass(t *testing.T) {
 
 		result := kitchenScale.ViewTotalMass()
 
-		if result != data.actual {
+		if result != data.expected {
 			t.Fatalf(
 				"重さが %d のとき表示メッセージが %s ではない。 actual: %s",
 				kitchenScale.TotalMass(),
-				data.actual,
+				data.expected,
 				result)
 		}
 	}

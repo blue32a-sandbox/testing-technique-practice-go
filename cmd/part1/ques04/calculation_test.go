@@ -6,8 +6,8 @@ import (
 )
 
 var dataProvider = []struct {
-	legnth float64
-	actual int64
+	legnth   float64
+	expected int64
 }{
 	{0.1, 40},
 	{1.5, 600},
@@ -22,11 +22,11 @@ func TestPurchase(t *testing.T) {
 
 		result, _ := ques04.CalculationClothPrice(data.legnth)
 
-		if result != data.actual {
+		if result != data.expected {
 			t.Fatalf(
 				"購入する生地の長さが %.1f mのとき購入価格が %d 円ではない。 actual: %d",
 				data.legnth,
-				data.actual,
+				data.expected,
 				result)
 		}
 	}

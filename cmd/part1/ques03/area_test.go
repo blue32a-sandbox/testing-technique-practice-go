@@ -7,7 +7,7 @@ import (
 
 var dataProvider = []struct {
 	tatamikazu int64
-	actual     string
+	expected   string
 }{
 	{-128, "畳数は１以上を入力してください"},
 	{-100, "畳数は１以上を入力してください"},
@@ -21,11 +21,11 @@ func TestConvert(t *testing.T) {
 	for _, data := range dataProvider {
 		result, _ := ques03.ConvertTatamikazuToArea(data.tatamikazu)
 
-		if result != data.actual {
+		if result != data.expected {
 			t.Fatalf(
 				"畳数が %d のとき表示メッセージが %s ではない。 actual: %s",
 				data.tatamikazu,
-				data.actual,
+				data.expected,
 				result)
 		}
 	}

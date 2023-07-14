@@ -24,8 +24,8 @@ func TestBMIValueError(t *testing.T) {
 }
 
 var bmiDataProvider = []struct {
-	value  float64
-	actual string
+	value    float64
+	expected string
 }{
 	{1.0, "痩せ"},
 	{15.0, "痩せ"},
@@ -53,11 +53,11 @@ func TestGetNutritionalStatus(t *testing.T) {
 
 		result := ques08.GetNutritionalStatus(bmi)
 
-		if result != data.actual {
+		if result != data.expected {
 			t.Fatalf(
 				"BMIの値が %.1f のとき栄養状態が %s ではない。 actual: %s",
 				data.value,
-				data.actual,
+				data.expected,
 				result)
 		}
 	}

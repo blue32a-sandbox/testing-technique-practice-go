@@ -5,11 +5,6 @@ import (
 	"ttp/cmd/part2/ques03"
 )
 
-var dataProvider = []struct {
-	items  []ques03.Item
-	actual int
-}{}
-
 func TestMoreThanSevenItemsWithWaiShirtAndTie(t *testing.T) {
 	items := FactoryItemsMoreThanSevenWithWaiShirtAndTie()
 
