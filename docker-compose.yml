@@ -5,5 +5,5 @@ services:
     build: ./.docker/golang
     tty: true
     volumes:
-      - .:/app:delegated
+      - .:/app:cached
     working_dir: /app
