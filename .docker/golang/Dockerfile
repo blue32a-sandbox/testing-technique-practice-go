@@ -1,4 +1,4 @@
-FROM golang:1.20
+FROM golang:1.21
 
 RUN go install golang.org/x/tools/gopls@latest
 RUN go install github.com/rogpeppe/godef@latest
