@@ -15,7 +15,7 @@ https://gihyo.jp/book/2020/978-4-297-11061-1
 - [1.7 BUG QUEST ☆武器の強化判定](cmd/part1/ques07/upgrade_test.go)
 - [1.8 BMI値で栄養状態を判定](cmd/part1/ques08/bmi_test.go)
 - [1.9 肉屋の特売日](cmd/part1/ques09/discount_test.go)
-- 1.10 肉屋の特売日～A社のソースコード
+- [1.10 肉屋の特売日～A社のソースコード](cmd/part1/ques10/discount_test.go)
 - 1.11 肉屋の特売日～B社のソースコード
 - 1.12 配達便の料金体系
 - 1.13 経理システムに入力する部署コード
