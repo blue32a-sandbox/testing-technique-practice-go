@@ -39,7 +39,7 @@ https://github.com/blue32a-sandbox/testing-technique-practice-react
 
 ## Part 4: 組み合わせテスト
 
-- 4.1 美味しい組み合わせ
+- [4.1 美味しい組み合わせ](cmd/part4/ques01/README.md)
 - 4.2 BUG QUEST ★冒険のはじまりの旅支度
 - 4.3 合コン会計アプリの検証
 - 4.4 BUG QUEST ★仲間集め
