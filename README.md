@@ -32,3 +32,18 @@ https://gihyo.jp/book/2020/978-4-297-11061-1
 - [2.8 ネットスーパーのポイント倍率](cmd/part2/ques08/README.md)
 - 2.9 ショッピングモールの駐車料金システム
 - 2.10 Eコマースサイトの配送料
+
+## Part 3: 状態遷移テスト
+
+https://github.com/blue32a-sandbox/testing-technique-practice-react
+
+## Part 4: 組み合わせテスト
+
+- 4.1 美味しい組み合わせ
+- 4.2 BUG QUEST ★冒険のはじまりの旅支度
+- 4.3 合コン会計アプリの検証
+- 4.4 BUG QUEST ★仲間集め
+- 4.5 健診システムの不養生
+- 4.6 タスク管理ツールの検証～ライフチャートの利用
+- 4.7 BUG QUEST ★最後の戦い
+- 4.8 BUG QUEST ★リメイク版の差分テスト
