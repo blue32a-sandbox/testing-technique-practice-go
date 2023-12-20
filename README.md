@@ -41,7 +41,7 @@ https://github.com/blue32a-sandbox/testing-technique-practice-react
 
 - [4.1 美味しい組み合わせ](cmd/part4/ques01/README.md)
 - [4.2 BUG QUEST ★冒険のはじまりの旅支度](cmd/part4/ques02/README.md)
-- 4.3 合コン会計アプリの検証
+- [4.3 合コン会計アプリの検証](cmd/part4/ques03/README.md)
 - 4.4 BUG QUEST ★仲間集め
 - 4.5 健診システムの不養生
 - 4.6 タスク管理ツールの検証～ライフチャートの利用
